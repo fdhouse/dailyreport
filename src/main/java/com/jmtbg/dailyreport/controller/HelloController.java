@@ -1,4 +1,4 @@
-package com.mywork.springboot.controller;
+package com.jmtbg.dailyreport.controller;
 
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.mywork.springboot.common.constant.ControllerUrls.CLIENT_API_URI;
+import static com.jmtbg.dailyreport.common.constant.ControllerUrls.CLIENT_API_URI;
 
 /**
  * @author sjw

@@ -10,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.mywork</groupId>
-    <artifactId>springboot_demo</artifactId>
+    <groupId>com.jmtbg</groupId>
+    <artifactId>dailyreport</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot_demo</name>
-    <description>Demo project for Spring Boot</description>
+    <name>dailyreport</name>
+    <description>daily report</description>
 
     <properties>
         <java.version>1.8</java.version>

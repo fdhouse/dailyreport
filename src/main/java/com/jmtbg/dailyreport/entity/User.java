@@ -1,4 +1,4 @@
-package com.mywork.springboot.entity;
+package com.jmtbg.dailyreport.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

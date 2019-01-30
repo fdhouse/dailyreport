@@ -1,7 +1,7 @@
-package com.mywork.springboot.config;
+package com.jmtbg.dailyreport.config;
 
 import com.fasterxml.classmate.TypeResolver;
-import com.mywork.springboot.common.constant.ControllerUrls;
+import com.jmtbg.dailyreport.common.constant.ControllerUrls;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -33,7 +33,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .groupName("API")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.mywork.springboot.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.jmtbg.dailyreport.controller"))
                 .paths(PathSelectors.ant(ControllerUrls.CLIENT_API_URI+"/**"))
                 .paths(PathSelectors.any())
                 .build()

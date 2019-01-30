@@ -1,4 +1,4 @@
-package com.mywork.springboot.common.constant;
+package com.jmtbg.dailyreport.common.constant;
 
 /**
  * Created by Frank Wu on 2018/1/30.

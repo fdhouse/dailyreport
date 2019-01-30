@@ -1,4 +1,4 @@
-package com.mywork.springboot;
+package com.jmtbg.dailyreport;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

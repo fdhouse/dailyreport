@@ -1,4 +1,4 @@
-package com.mywork.springboot.common.vo;
+package com.jmtbg.dailyreport.common.vo;
 
 
 import io.swagger.annotations.Api;

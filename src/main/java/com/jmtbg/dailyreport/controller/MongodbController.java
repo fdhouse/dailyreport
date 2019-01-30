@@ -1,7 +1,7 @@
-package com.mywork.springboot.controller;
+package com.jmtbg.dailyreport.controller;
 
-import com.mywork.springboot.common.vo.Result;
-import com.mywork.springboot.entity.User;
+import com.jmtbg.dailyreport.common.vo.Result;
+import com.jmtbg.dailyreport.entity.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.mywork.springboot.common.constant.ControllerUrls.CLIENT_API_URI;
+import static com.jmtbg.dailyreport.common.constant.ControllerUrls.CLIENT_API_URI;
 
 /**
  * @author sjw
